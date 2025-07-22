@@ -27,3 +27,28 @@ body{
     color: #007bff;
 }
 
+.card-img-top {
+    height: 200px;
+    width: 100%;
+    object-fit: contain; /* Shows the whole image, no cropping */
+    background-color: #f8f9fa; /* Light gray background to fill gaps */
+}
+
+.card {
+    height: 100%;
+}
+
+<style>
+  .hover-effect {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .hover-effect:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.2);
+  }
+
+  .cursor-pointer {
+    cursor: pointer;
+  }
+</style>
