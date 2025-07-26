@@ -1,0 +1,15 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "itis a Eccomers Book store where you can Buy add and delete the books",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.7"
+  }
+}
