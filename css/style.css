@@ -3,28 +3,14 @@ body{
     font-family: Arial, sans-serif;
 }
 
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  background-color: #f0f0f0; 
+
+.logo-img {
+  height: 70px;
 }
 
-.logo img{
-    width: 120px;
-    height: auto;
-}
-
-.navlink a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-  transition: color 0.3s;
-}
-.nav a:hover{
-    color: #007bff;
+.full-banner {
+   width: 100%;
+   height: 90vh;
 }
 
 .card-img-top {
@@ -38,7 +24,6 @@ body{
     height: 100%;
 }
 
-<style>
   .hover-effect {
     transition: transform 0.3s ease-in-out;
   }
@@ -51,4 +36,25 @@ body{
   .cursor-pointer {
     cursor: pointer;
   }
-</style>
+
+  .footer-link{
+    text-decoration: none;
+  }
+
+  .sidebar {
+      min-height: 100vh;
+      background-color: #343a40;
+      padding-top: 1rem;
+    }
+    .sidebar a {
+      color: white;
+      display: block;
+      padding: 10px 15px;
+      text-decoration: none;
+    }
+    .sidebar a:hover {
+      background-color: #495057;
+    }
+    .content {
+      padding: 20px;
+    }
